@@ -34,7 +34,7 @@ U 1 1 5DCF20B5
 P 1050 6050
 F 0 "J2" H 1006 6947 60  0000 C CNN
 F 1 "Ampseal_14_VT" H 1006 6841 60  0000 C CNN
-F 2 "footprints:Ampseal_14" H 850 6350 60  0001 C CNN
+F 2 "" H 850 6350 60  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F776261%7FA7%7Fpdf%7FEnglish%7FENG_CD_776261_A7.pdf%7F1-776261-1" H 850 6350 60  0001 C CNN
 F 4 "TE" H 900 6900 60  0001 C CNN "MFN"
 F 5 " 1-776261-1" H 1000 7000 60  0001 C CNN "MPN"
@@ -43,7 +43,7 @@ F 6 "http://www.te.com/usa-en/product-1-776261-1.html" H 1100 7100 60  0001 C CN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:RJ45_VT U1
+L LV-Interface-rescue:RJ45_VT-formula U1
 U 1 1 5DCF22D8
 P 7850 5200
 F 0 "U1" H 8035 6063 60  0000 C CNN
@@ -63,7 +63,7 @@ P 2800 2250
 F 0 "J4" H 2756 3597 60  0000 C CNN
 F 1 "MM_M_VT_20" H 2756 3491 60  0000 C CNN
 F 2 "footprints:micromatch_female_ra_20" H 2600 3350 60  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F215464%7FR%7Fpdf%7FEnglish%7FENG_CD_215464_R.pdf%7F2-215464-0" H 2700 3450 60  0001 C CNN
+F 3 "" H 2700 3450 60  0001 C CNN
 F 4 "TE" H 2900 3650 60  0001 C CNN "MFN"
 F 5 "2-215464-0" H 3000 3750 60  0001 C CNN "MPN"
 F 6 "http://www.te.com/global-en/product-2-215464-0.html" H 2800 3550 60  0001 C CNN "PurchasingLink"
@@ -77,7 +77,7 @@ P 5300 2250
 F 0 "J6" H 5256 3597 60  0000 C CNN
 F 1 "MM_M_VT_20" H 5256 3491 60  0000 C CNN
 F 2 "footprints:micromatch_female_ra_20" H 5100 3350 60  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F215464%7FR%7Fpdf%7FEnglish%7FENG_CD_215464_R.pdf%7F2-215464-0" H 5200 3450 60  0001 C CNN
+F 3 "" H 5200 3450 60  0001 C CNN
 F 4 "TE" H 5400 3650 60  0001 C CNN "MFN"
 F 5 "2-215464-0" H 5500 3750 60  0001 C CNN "MPN"
 F 6 "http://www.te.com/global-en/product-2-215464-0.html" H 5300 3550 60  0001 C CNN "PurchasingLink"
@@ -87,12 +87,12 @@ $EndComp
 $Comp
 L formula:MicroFit_VT_4 J3
 U 1 1 5DCF3278
-P 8050 2150
-F 0 "J3" H 8106 2525 50  0000 C CNN
-F 1 "MicroFit_VT_4" H 8106 2434 50  0000 C CNN
-F 2 "footprints:MicroFit_VT_4" H 8050 1850 50  0001 C CNN
-F 3 "" H 8050 2100 50  0001 C CNN
-	1    8050 2150
+P 8050 2200
+F 0 "J3" H 8106 2575 50  0000 C CNN
+F 1 "MicroFit_VT_4" H 8106 2484 50  0000 C CNN
+F 2 "footprints:MicroFit_VT_4" H 8050 1900 50  0001 C CNN
+F 3 "" H 8050 2150 50  0001 C CNN
+	1    8050 2200
 	1    0    0    -1  
 $EndComp
 Text Label 1200 1150 0    50   ~ 0
@@ -235,21 +235,21 @@ Text Label 5450 2050 0    50   ~ 0
 MC TEMP +
 Text Label 5450 2150 0    50   ~ 0
 MC TEMP -
-Text Label 8250 2100 0    50   ~ 0
+Text Label 8250 2150 0    50   ~ 0
 12V
-Text Label 8250 2000 0    50   ~ 0
+Text Label 8250 2050 0    50   ~ 0
 GND
-Text Label 8250 2200 0    50   ~ 0
+Text Label 8250 2250 0    50   ~ 0
 CAN HIGH
-Text Label 8250 2300 0    50   ~ 0
+Text Label 8250 2350 0    50   ~ 0
 CAN LOW
 Text Label 3100 4450 0    50   ~ 0
 12V
 Text Label 3100 4350 0    50   ~ 0
 GND
-Text Label 5750 7400 0    50   ~ 0
+Text Label 6050 6800 0    50   ~ 0
 BATTERY +
-Text Label 5750 7500 0    50   ~ 0
+Text Label 6050 6900 0    50   ~ 0
 BATTERY RETURN (GND)
 Text Label 3100 4750 0    50   ~ 0
 CAN LOW
@@ -334,7 +334,7 @@ U 1 1 5DD22CED
 P 3300 6760
 F 0 "U2" H 3300 6985 50  0000 C CNN
 F 1 "Fuse_Holder_Blade" H 3300 6894 50  0000 C CNN
-F 2 "footprints:Fuse_Block_Holder" H 3300 6760 50  0001 C CNN
+F 2 "" H 3300 6760 50  0001 C CNN
 F 3 "" H 3300 6760 50  0001 C CNN
 	1    3300 6760
 	1    0    0    -1  
@@ -349,7 +349,7 @@ U 1 1 5DD23405
 P 3300 7110
 F 0 "U3" H 3300 7335 50  0000 C CNN
 F 1 "Fuse_Holder_Blade" H 3300 7244 50  0000 C CNN
-F 2 "footprints:Fuse_Block_Holder" H 3300 7110 50  0001 C CNN
+F 2 "" H 3300 7110 50  0001 C CNN
 F 3 "" H 3300 7110 50  0001 C CNN
 	1    3300 7110
 	1    0    0    -1  
@@ -409,11 +409,7 @@ $EndComp
 Wire Wire Line
 	10500 5100 10500 5600
 Wire Wire Line
-	10500 5600 10350 5600
-Wire Wire Line
 	9900 5100 9900 5600
-Wire Wire Line
-	9900 5600 10050 5600
 $Comp
 L formula:MM_M_VT_20 J9
 U 1 1 5DD2488B
@@ -421,7 +417,7 @@ P 6750 2200
 F 0 "J9" H 6706 3547 60  0000 C CNN
 F 1 "MM_M_VT_20" H 6706 3441 60  0000 C CNN
 F 2 "footprints:micromatch_female_ra_20" H 6550 3300 60  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F215464%7FR%7Fpdf%7FEnglish%7FENG_CD_215464_R.pdf%7F2-215464-0" H 6650 3400 60  0001 C CNN
+F 3 "" H 6650 3400 60  0001 C CNN
 F 4 "TE" H 6850 3600 60  0001 C CNN "MFN"
 F 5 "2-215464-0" H 6950 3700 60  0001 C CNN "MPN"
 F 6 "http://www.te.com/global-en/product-2-215464-0.html" H 6750 3500 60  0001 C CNN "PurchasingLink"
@@ -435,7 +431,7 @@ P 10050 2250
 F 0 "J10" H 10006 3597 60  0000 C CNN
 F 1 "MM_M_VT_20" H 10006 3491 60  0000 C CNN
 F 2 "footprints:micromatch_female_ra_20" H 9850 3350 60  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F215464%7FR%7Fpdf%7FEnglish%7FENG_CD_215464_R.pdf%7F2-215464-0" H 9950 3450 60  0001 C CNN
+F 3 "" H 9950 3450 60  0001 C CNN
 F 4 "TE" H 10150 3650 60  0001 C CNN "MFN"
 F 5 "2-215464-0" H 10250 3750 60  0001 C CNN "MPN"
 F 6 "http://www.te.com/global-en/product-2-215464-0.html" H 10050 3550 60  0001 C CNN "PurchasingLink"
@@ -646,7 +642,7 @@ P 4250 2250
 F 0 "J7" H 4206 3597 60  0000 C CNN
 F 1 "MM_M_VT_20" H 4206 3491 60  0000 C CNN
 F 2 "footprints:micromatch_female_ra_20" H 4050 3350 60  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F215464%7FR%7Fpdf%7FEnglish%7FENG_CD_215464_R.pdf%7F2-215464-0" H 4150 3450 60  0001 C CNN
+F 3 "" H 4150 3450 60  0001 C CNN
 F 4 "TE" H 4350 3650 60  0001 C CNN "MFN"
 F 5 "2-215464-0" H 4450 3750 60  0001 C CNN "MPN"
 F 6 "http://www.te.com/global-en/product-2-215464-0.html" H 4250 3550 60  0001 C CNN "PurchasingLink"
@@ -840,7 +836,7 @@ Text Notes 6600 750  0    100  ~ 0
 Spare\n
 Text Notes 9850 800  0    100  ~ 0
 Telemetry\n
-Text Notes 7950 1650 0    100  ~ 0
+Text Notes 7950 1700 0    100  ~ 0
 LCD\n
 Text Notes 2500 4000 0    100  ~ 0
 GLV Monitor\n
@@ -868,8 +864,6 @@ Text Label 3300 3600 0    50   ~ 0
 BSPD TEST SWITCH
 Wire Wire Line
 	3250 3600 3300 3600
-Wire Notes Line
-	9300 500  9300 3750
 Wire Notes Line
 	2300 3750 11200 3750
 Wire Wire Line
@@ -902,51 +896,41 @@ Text Label 2050 1950 0    50   ~ 0
 12V
 Text Label 1200 4550 0    50   ~ 0
 BRAKE PRESSURE -
-Wire Wire Line
-	1200 4150 2000 4150
-Wire Wire Line
-	2000 4150 2000 4300
-Wire Wire Line
-	2000 4300 2250 4300
-Wire Wire Line
-	2250 4300 2250 3900
-Text Label 2250 3900 2    50   ~ 0
-12V
 Text Label 10500 5100 0    50   ~ 0
 BSPD RELAY LSD
 $Comp
 L formula:MicroFit_VT_4 J11
 U 1 1 5DDEC071
-P 8060 1190
-F 0 "J11" H 8116 1565 50  0000 C CNN
-F 1 "MicroFit_VT_4" H 8116 1474 50  0000 C CNN
-F 2 "footprints:MicroFit_VT_4" H 8060 890 50  0001 C CNN
-F 3 "" H 8060 1140 50  0001 C CNN
-	1    8060 1190
+P 8060 1240
+F 0 "J11" H 8116 1615 50  0000 C CNN
+F 1 "MicroFit_VT_4" H 8116 1524 50  0000 C CNN
+F 2 "footprints:MicroFit_VT_4" H 8060 940 50  0001 C CNN
+F 3 "" H 8060 1190 50  0001 C CNN
+	1    8060 1240
 	1    0    0    -1  
 $EndComp
-Text Label 8260 1040 0    50   ~ 0
+Text Label 8260 1090 0    50   ~ 0
 12V
-Text Label 8260 1140 0    50   ~ 0
+Text Label 8260 1190 0    50   ~ 0
 GND
-Text Label 8260 1240 0    50   ~ 0
+Text Label 8260 1290 0    50   ~ 0
 CAN HIGH
-Text Label 8260 1340 0    50   ~ 0
+Text Label 8260 1390 0    50   ~ 0
 CAN LOW
-Text Notes 7830 850  0    100  ~ 0
+Text Notes 7830 900  0    100  ~ 0
 Data Logger\n\n
 $Comp
 L formula:UF_2_VT J8
 U 1 1 5DDFA2B5
-P 5500 7450
-F 0 "J8" H 5556 7747 60  0000 C CNN
-F 1 "UF_2_VT" H 5556 7641 60  0000 C CNN
-F 2 "footprints:Ultrafit_2" H 5400 7500 60  0001 C CNN
-F 3 "" H 5500 7600 60  0001 C CNN
-F 4 "DK" H 5700 7800 60  0001 C CNN "MFN"
-F 5 "WM11570-ND" H 5800 7900 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267" H 5600 7700 60  0001 C CNN "PurchasingLink"
-	1    5500 7450
+P 5800 6850
+F 0 "J8" H 5856 7147 60  0000 C CNN
+F 1 "UF_2_VT" H 5856 7041 60  0000 C CNN
+F 2 "footprints:Ultrafit_2" H 5700 6900 60  0001 C CNN
+F 3 "" H 5800 7000 60  0001 C CNN
+F 4 "DK" H 6000 7200 60  0001 C CNN "MFN"
+F 5 "WM11570-ND" H 6100 7300 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267" H 5900 7100 60  0001 C CNN "PurchasingLink"
+	1    5800 6850
 	1    0    0    -1  
 $EndComp
 Text Label 1200 3950 0    50   ~ 0
@@ -1009,27 +993,27 @@ Text Label 4000 5150 0    50   ~ 0
 SCK_GLV
 Text Label 4000 5250 0    50   ~ 0
 CS_GLV
-Text Label 6100 6300 0    50   ~ 0
+Text Label 6150 5800 0    50   ~ 0
 SCL_GLV
-Text Label 6100 6400 0    50   ~ 0
+Text Label 6150 5900 0    50   ~ 0
 SDA_GLV
 Wire Wire Line
-	8250 2000 8500 2000
+	8250 2050 8500 2050
 Wire Wire Line
-	8500 1800 8650 1800
+	8500 1850 8650 1850
 $Comp
 L power:GND #PWR031
 U 1 1 5DE45B97
-P 8650 1800
-F 0 "#PWR031" H 8650 1550 50  0001 C CNN
-F 1 "GND" H 8655 1627 50  0000 C CNN
-F 2 "" H 8650 1800 50  0001 C CNN
-F 3 "" H 8650 1800 50  0001 C CNN
-	1    8650 1800
+P 8650 1850
+F 0 "#PWR031" H 8650 1600 50  0001 C CNN
+F 1 "GND" H 8655 1677 50  0000 C CNN
+F 2 "" H 8650 1850 50  0001 C CNN
+F 3 "" H 8650 1850 50  0001 C CNN
+	1    8650 1850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8500 1800 8500 2000
+	8500 1850 8500 2050
 $Comp
 L formula:MM_F_RA_20 J5
 U 1 1 5DE502F2
@@ -1059,12 +1043,12 @@ SDA_GLV
 $Comp
 L formula:INA260 U6
 U 1 1 5DEA1A67
-P 5700 6400
-F 0 "U6" H 5400 6900 50  0000 C CNN
-F 1 "INA260" H 5450 6800 50  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 5700 5800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ina260.pdf" H 5700 6300 50  0001 C CNN
-	1    5700 6400
+P 5750 5900
+F 0 "U6" H 5450 6400 50  0000 C CNN
+F 1 "INA260" H 5500 6300 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 5750 5300 50  0001 C CNN
+F 3 "" H 5750 5800 50  0001 C CNN
+	1    5750 5900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1089,12 +1073,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR026
 U 1 1 5DEBA9C7
-P 5700 6800
-F 0 "#PWR026" H 5700 6550 50  0001 C CNN
-F 1 "GND" H 5705 6627 50  0000 C CNN
-F 2 "" H 5700 6800 50  0001 C CNN
-F 3 "" H 5700 6800 50  0001 C CNN
-	1    5700 6800
+P 5750 6300
+F 0 "#PWR026" H 5750 6050 50  0001 C CNN
+F 1 "GND" H 5755 6127 50  0000 C CNN
+F 2 "" H 5750 6300 50  0001 C CNN
+F 3 "" H 5750 6300 50  0001 C CNN
+	1    5750 6300
 	1    0    0    -1  
 $EndComp
 Text Label 4000 4750 0    50   ~ 0
@@ -1122,92 +1106,92 @@ F 3 "" H 4350 4200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4200 4350 4000 4350
-Text Label 5300 6600 2    50   ~ 0
-12V_Cooling
-Text Label 5300 6200 2    50   ~ 0
+Text Label 5350 6100 2    50   ~ 0
+12V_Cooling_Out
+Text Label 5350 5700 2    50   ~ 0
 12V_Cooling_Fused
 Wire Wire Line
-	5300 6200 5300 6300
+	5350 5700 5350 5800
 Text Label 3100 4550 0    50   ~ 0
 5V_GLV
-Text Label 5700 6000 0    50   ~ 0
+Text Label 5750 5500 0    50   ~ 0
 5V_GLV
-Text Label 6100 6200 0    50   ~ 0
+Text Label 6150 5700 0    50   ~ 0
 ALERT_GLV
 Wire Wire Line
-	6100 6600 6200 6600
+	6150 6100 6250 6100
 Wire Wire Line
-	6200 6600 6200 6650
+	6250 6100 6250 6150
 $Comp
 L power:GND #PWR030
 U 1 1 5DE19F28
-P 6200 6650
-F 0 "#PWR030" H 6200 6400 50  0001 C CNN
-F 1 "GND" H 6205 6477 50  0000 C CNN
-F 2 "" H 6200 6650 50  0001 C CNN
-F 3 "" H 6200 6650 50  0001 C CNN
-	1    6200 6650
+P 6250 6150
+F 0 "#PWR030" H 6250 5900 50  0001 C CNN
+F 1 "GND" H 6255 5977 50  0000 C CNN
+F 2 "" H 6250 6150 50  0001 C CNN
+F 3 "" H 6250 6150 50  0001 C CNN
+	1    6250 6150
 	1    0    0    -1  
 $EndComp
-Text Notes 5050 5850 0    100  ~ 0
+Text Notes 5100 5500 0    100  ~ 0
 Cooling Gas Guage\n\n
-Text Label 6100 4750 0    50   ~ 0
+Text Label 6100 4450 0    50   ~ 0
 SCL_GLV
-Text Label 6100 4850 0    50   ~ 0
+Text Label 6100 4550 0    50   ~ 0
 SDA_GLV
 $Comp
 L formula:INA260 U5
 U 1 1 5DE32AE6
-P 5700 4850
-F 0 "U5" H 5400 5350 50  0000 C CNN
-F 1 "INA260" H 5450 5250 50  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 5700 4250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ina260.pdf" H 5700 4750 50  0001 C CNN
-	1    5700 4850
+P 5700 4550
+F 0 "U5" H 5400 5050 50  0000 C CNN
+F 1 "INA260" H 5450 4950 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 5700 3950 50  0001 C CNN
+F 3 "" H 5700 4450 50  0001 C CNN
+	1    5700 4550
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR025
 U 1 1 5DE32AED
-P 5700 5250
-F 0 "#PWR025" H 5700 5000 50  0001 C CNN
-F 1 "GND" H 5705 5077 50  0000 C CNN
-F 2 "" H 5700 5250 50  0001 C CNN
-F 3 "" H 5700 5250 50  0001 C CNN
-	1    5700 5250
+P 5700 4950
+F 0 "#PWR025" H 5700 4700 50  0001 C CNN
+F 1 "GND" H 5705 4777 50  0000 C CNN
+F 2 "" H 5700 4950 50  0001 C CNN
+F 3 "" H 5700 4950 50  0001 C CNN
+	1    5700 4950
 	1    0    0    -1  
 $EndComp
-Text Label 5300 5050 2    50   ~ 0
+Text Label 5300 4750 2    50   ~ 0
 12V
-Text Label 5300 4650 2    50   ~ 0
+Text Label 5300 4350 2    50   ~ 0
 12V_Fused
 Wire Wire Line
-	5300 4650 5300 4750
-Text Label 5700 4450 0    50   ~ 0
+	5300 4350 5300 4450
+Text Label 5700 4150 0    50   ~ 0
 5V_GLV
-Text Label 6100 4650 0    50   ~ 0
+Text Label 6100 4350 0    50   ~ 0
 ALERT_GLV
 Wire Wire Line
-	6100 4950 6100 5000
+	6100 4650 6100 4700
 Wire Wire Line
-	6100 5000 6200 5000
+	6100 4700 6200 4700
 Wire Wire Line
-	6200 5000 6200 5050
-Connection ~ 6100 5000
+	6200 4700 6200 4750
+Connection ~ 6100 4700
 Wire Wire Line
-	6100 5000 6100 5050
+	6100 4700 6100 4750
 $Comp
 L power:GND #PWR029
 U 1 1 5DE32AFD
-P 6200 5050
-F 0 "#PWR029" H 6200 4800 50  0001 C CNN
-F 1 "GND" H 6205 4877 50  0000 C CNN
-F 2 "" H 6200 5050 50  0001 C CNN
-F 3 "" H 6200 5050 50  0001 C CNN
-	1    6200 5050
+P 6200 4750
+F 0 "#PWR029" H 6200 4500 50  0001 C CNN
+F 1 "GND" H 6205 4577 50  0000 C CNN
+F 2 "" H 6200 4750 50  0001 C CNN
+F 3 "" H 6200 4750 50  0001 C CNN
+	1    6200 4750
 	1    0    0    -1  
 $EndComp
-Text Notes 5200 4300 0    100  ~ 0
+Text Notes 5200 4100 0    100  ~ 0
 GLV Gas Guage\n\n
 $Comp
 L formula:Fuse_Holder_Blade U4
@@ -1215,7 +1199,7 @@ U 1 1 5DE372EC
 P 3300 7500
 F 0 "U4" H 3300 7725 50  0000 C CNN
 F 1 "Fuse_Holder_Blade" H 3300 7634 50  0000 C CNN
-F 2 "footprints:Fuse_Block_Holder" H 3300 7500 50  0001 C CNN
+F 2 "" H 3300 7500 50  0001 C CNN
 F 3 "" H 3300 7500 50  0001 C CNN
 	1    3300 7500
 	1    0    0    -1  
@@ -1224,25 +1208,25 @@ Text Label 3050 7500 2    50   ~ 0
 COOLING PUMP +
 Text Label 3550 7500 0    50   ~ 0
 12V_Cooling_Fused
-Text Label 6100 6500 0    50   ~ 0
+Text Label 6150 6000 0    50   ~ 0
 5V_GLV
 Wire Wire Line
-	5900 7500 5900 7550
+	6200 6900 6200 6950
 $Comp
 L power:GND #PWR028
 U 1 1 5DE40C73
-P 5900 7550
-F 0 "#PWR028" H 5900 7300 50  0001 C CNN
-F 1 "GND" H 5905 7377 50  0000 C CNN
-F 2 "" H 5900 7550 50  0001 C CNN
-F 3 "" H 5900 7550 50  0001 C CNN
-	1    5900 7550
+P 6200 6950
+F 0 "#PWR028" H 6200 6700 50  0001 C CNN
+F 1 "GND" H 6205 6777 50  0000 C CNN
+F 2 "" H 6200 6950 50  0001 C CNN
+F 3 "" H 6200 6950 50  0001 C CNN
+	1    6200 6950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5750 7500 5900 7500
+	6050 6900 6200 6900
 Text Label 1200 4050 0    50   ~ 0
-12V_Cooling
+12V_Cooling_Out
 Text Label 5450 2250 0    50   ~ 0
 EXTRA TEMP 1 +
 Text Label 5450 2350 0    50   ~ 0
@@ -1385,4 +1369,45 @@ Wire Wire Line
 	1250 5800 1950 5800
 Text Label 1250 5800 0    50   ~ 0
 GND
+$Comp
+L formula:UF_2_VT J13
+U 1 1 5DF08790
+P 5800 7400
+F 0 "J13" H 5856 7697 60  0000 C CNN
+F 1 "UF_2_VT" H 5856 7591 60  0000 C CNN
+F 2 "footprints:Ultrafit_2" H 5700 7450 60  0001 C CNN
+F 3 "" H 5800 7550 60  0001 C CNN
+F 4 "DK" H 6000 7750 60  0001 C CNN "MFN"
+F 5 "WM11570-ND" H 6100 7850 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267" H 5900 7650 60  0001 C CNN "PurchasingLink"
+	1    5800 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 7450 6200 7500
+$Comp
+L power:GND #PWR033
+U 1 1 5DF08798
+P 6200 7500
+F 0 "#PWR033" H 6200 7250 50  0001 C CNN
+F 1 "GND" H 6205 7327 50  0000 C CNN
+F 2 "" H 6200 7500 50  0001 C CNN
+F 3 "" H 6200 7500 50  0001 C CNN
+	1    6200 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 7450 6200 7450
+Text Label 6050 7350 0    50   ~ 0
+COOLING PUMP +
+Text Notes 4850 6900 0    100  ~ 0
+GLV Batt \n
+Text Notes 4850 7450 0    100  ~ 0
+Cooling\n Batt \n
+Wire Wire Line
+	10500 5600 10350 5600
+Wire Wire Line
+	9900 5600 10050 5600
+Wire Notes Line
+	9300 500  9300 3750
 $EndSCHEMATC
